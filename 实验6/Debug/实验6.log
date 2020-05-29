@@ -1,0 +1,6 @@
+﻿  main.cpp
+D:\Program Files\My project\实验6\dependences.h(15,2): warning C4091: “typedef ”: 没有声明变量时忽略“BTNode”的左侧
+D:\Program Files\My project\实验6\dependences.h(92,8): warning C4018: “>”: 有符号/无符号不匹配
+D:\Program Files\My project\实验6\dependences.h(339,10): warning C4101: “n2”: 未引用的局部变量
+D:\Program Files\My project\实验6\dependences.h(339,6): warning C4101: “n1”: 未引用的局部变量
+  实验6.vcxproj -> D:\Program Files\My project\实验6\Debug\实验6.exe

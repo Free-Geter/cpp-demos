@@ -1,0 +1,8 @@
+﻿  Rational.cpp
+  mian.cpp
+  正在生成代码...
+C:\Users\DELL\source\repos\有理数\Rational.cpp(163): warning C4172: 返回局部变量或临时变量的地址: s
+C:\Users\DELL\source\repos\有理数\Rational.cpp(181): warning C4172: 返回局部变量或临时变量的地址: s
+C:\Users\DELL\source\repos\有理数\Rational.cpp(169): warning C4172: 返回局部变量或临时变量的地址: s
+C:\Users\DELL\source\repos\有理数\Rational.cpp(175): warning C4172: 返回局部变量或临时变量的地址: s
+  有理数.vcxproj -> C:\Users\DELL\source\repos\有理数\Debug\有理数.exe
