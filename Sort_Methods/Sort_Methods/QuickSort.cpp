@@ -1,0 +1,44 @@
+#include"Sort_Method.h"
+#define Cutoff 2
+
+
+
+
+ElemType Median3(ElemType A[], int Left, int Right) {
+    int Center = (Left + Right) / 2;
+    if (A[Left] > A[Center])
+        Swap(A[Left], A[Center]);
+    if (A[Left] > A[Right])
+        Swap(A[Left], A[Right]);
+    if (A[Center] > A[Right])
+        Swap(A[Center], A[Right]);
+    /* 此时A[Left] <= A[Center] <= A[Right] */
+    Swap(A[Center], A[Right - 1]); /* 将基准Pivot藏到右边*/
+    /* 只需要考虑A[Left+1] … A[Right-2] */
+    return  A[Right - 1];  /* 返回基准Pivot */
+}
+
+void Quicksort(ElemType A[], int Left, int Right) {
+    if (Cutoff <= Right - Left) {
+        ElemType Pivot = Median3(A, Left, Right);
+        int i = Left; int j = Right - 1;
+        while (1) {
+            while (A[++i] < Pivot) {}
+            while (A[--j] > Pivot) {}
+            if (i < j)
+                Swap(A[i], A[j]);
+            else
+                break;
+        }
+        Swap(A[i], A[Right - 1]);
+        Quicksort(A, Left, i - 1);
+        Quicksort(A, i + 1, Right);
+    }
+    else
+        Insert_Sort(A, Right - Left);
+}
+
+void Quicksort(ElemType A[], int N)
+{
+    Quicksort(A, 0, N - 1);
+}
