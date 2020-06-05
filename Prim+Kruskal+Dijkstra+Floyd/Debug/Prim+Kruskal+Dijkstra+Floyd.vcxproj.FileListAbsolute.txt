@@ -1,0 +1,2 @@
+D:\Program Files\My project\Prim+Kruskal+Dijkstra+Floyd\Debug\Prim+Kruskal+Dijkstra+Floyd.exe
+D:\Program Files\My project\Prim+Kruskal+Dijkstra+Floyd\Debug\Prim+Kruskal+Dijkstra+Floyd.pdb

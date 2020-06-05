@@ -1,0 +1,2 @@
+D:\Program Files\My project\实验8\Debug\实验8.exe
+D:\Program Files\My project\实验8\Debug\实验8.pdb

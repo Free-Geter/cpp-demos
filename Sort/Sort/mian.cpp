@@ -44,6 +44,7 @@ int* get_n_data(int n) {
 	return R;
 }
 
+
 // 用不同的数据量进行测试。
 
 template <class Func>
@@ -61,6 +62,8 @@ void test(Func f) {
 		delete[] R;
 	}
 }
+
+
 
 // 在main进行测试。
 

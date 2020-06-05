@@ -1,1 +1,79 @@
-﻿  Sort.vcxproj -> E:\cpp projects\Sort\Debug\Sort.exe
+﻿  mian.cpp
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\xutility(1467,14): error C2672: “operator __surrogate_func”: 未找到匹配的重载函数
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\xutility(1466): message : 查看对正在编译的函数 模板 实例化“bool std::_Debug_lt_pred<_Pr&,T&,T&,0>(std::less<void>&,_Ty1,_Ty2) noexcept(<expr>)”的引用
+          with
+          [
+              _Pr=std::less<void>,
+              T=RecType,
+              _Ty1=RecType &,
+              _Ty2=RecType &
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\algorithm(3480): message : 查看对正在编译的函数 模板 实例化“std::pair<_RanIt,_RanIt> std::_Partition_by_median_guess_unchecked<_RanIt,_Pr>(_RanIt,_RanIt,_Pr)”的引用
+          with
+          [
+              _RanIt=RecType [],
+              _Pr=std::less<void>
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\algorithm(3506): message : 查看对正在编译的函数 模板 实例化“void std::_Sort_unchecked<_BidIt,_Fn>(_RanIt,_RanIt,int,_Pr)”的引用
+          with
+          [
+              _BidIt=RecType [],
+              _Fn=std::less<void>,
+              _RanIt=RecType [],
+              _Pr=std::less<void>
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\algorithm(3511): message : 查看对正在编译的函数 模板 实例化“void std::sort<_RanIt,std::less<void>>(const _RanIt,const _RanIt,_Pr)”的引用
+          with
+          [
+              _RanIt=RecType [],
+              _Pr=std::less<void>
+          ]
+D:\Program Files\My project\Sort\Sort\mian.cpp(46): message : 查看对正在编译的函数 模板 实例化“void std::sort<T[]>(const _RanIt,const _RanIt)”的引用
+          with
+          [
+              T=RecType,
+              _RanIt=RecType []
+          ]
+D:\Program Files\My project\Sort\Sort\mian.cpp(109): message : 查看对正在编译的函数 模板 实例化“void test_different_sequence<void(__cdecl *)(RecType [],int),RecType>(Func,T [],int)”的引用
+          with
+          [
+              Func=void (__cdecl *)(RecType [],int),
+              T=RecType
+          ]
+D:\Program Files\My project\Sort\Sort\mian.cpp(122): message : 查看对正在编译的函数 模板 实例化“void testSp<void(__cdecl *)(RecType [],int)>(Func)”的引用
+          with
+          [
+              Func=void (__cdecl *)(RecType [],int)
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\xutility(1467,1): error C2893: 未能使函数模板“unknown-type std::less<void>::operator ()(_Ty1 &&,_Ty2 &&) noexcept(<expr>) const”专用化
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\xstddef(239): message : 参见“std::less<void>::operator ()”的声明
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\xutility(1467,1): message : 用下列模板参数:
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\xutility(1467,1): message : “_Ty1=T &”
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\xutility(1467,1): message : “_Ty2=T &”
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\xutility(1467,5): error C2056: 非法表达式
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\xutility(1467,48): error C2672: “operator __surrogate_func”: 未找到匹配的重载函数
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\xutility(1467,39): error C2056: 非法表达式
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\algorithm(3416,85): error C2672: “operator __surrogate_func”: 未找到匹配的重载函数
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\algorithm(3416,1): error C2893: 未能使函数模板“unknown-type std::less<void>::operator ()(_Ty1 &&,_Ty2 &&) noexcept(<expr>) const”专用化
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\xstddef(239): message : 参见“std::less<void>::operator ()”的声明
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\algorithm(3416,1): message : 用下列模板参数:
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\algorithm(3416,1): message : “_Ty1=T &”
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\algorithm(3416,1): message : “_Ty2=T &”
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\algorithm(3420,76): error C2672: “operator __surrogate_func”: 未找到匹配的重载函数
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\algorithm(3420,1): error C2893: 未能使函数模板“unknown-type std::less<void>::operator ()(_Ty1 &&,_Ty2 &&) noexcept(<expr>) const”专用化
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\xstddef(239): message : 参见“std::less<void>::operator ()”的声明
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\algorithm(3420,1): message : 用下列模板参数:
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\algorithm(3420,1): message : “_Ty1=T &”
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\algorithm(3420,1): message : “_Ty2=T &”
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\algorithm(3430,24): error C2672: “operator __surrogate_func”: 未找到匹配的重载函数
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\algorithm(3430,1): error C2893: 未能使函数模板“unknown-type std::less<void>::operator ()(_Ty1 &&,_Ty2 &&) noexcept(<expr>) const”专用化
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\xstddef(239): message : 参见“std::less<void>::operator ()”的声明
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\algorithm(3430,1): message : 用下列模板参数:
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\algorithm(3430,1): message : “_Ty1=T &”
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\algorithm(3430,1): message : “_Ty2=T &”
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\algorithm(3442,24): error C2672: “operator __surrogate_func”: 未找到匹配的重载函数
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\algorithm(3442,1): error C2893: 未能使函数模板“unknown-type std::less<void>::operator ()(_Ty1 &&,_Ty2 &&) noexcept(<expr>) const”专用化
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\xstddef(239): message : 参见“std::less<void>::operator ()”的声明
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\algorithm(3442,1): message : 用下列模板参数:
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\algorithm(3442,1): message : “_Ty1=T &”
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\algorithm(3442,1): message : “_Ty2=T &”
